@@ -10,7 +10,7 @@ const Navbar = () => {
   const exitNavigation = () => setMobileLinks(false)
   
   return (
-    <div className='bg-gray-900 py-4 px-3 fixed w-full z-10'>
+    <div className='bg-gray-900 py-4 px-3 fixed w-full z-20'>
       <section className="max-w-4xl mx-auto">
         <nav className='flex items-center justify-between gap-5 uppercase text-white'>
           <Link to={'/'} onClick={exitNavigation}>
