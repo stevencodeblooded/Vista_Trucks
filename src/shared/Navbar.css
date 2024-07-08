@@ -1,0 +1,10 @@
+/* styles.css or a similar CSS file */
+.mobile-links {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.mobile-links.show {
+  max-height: 500px; /* or some value that fits your content */
+}
